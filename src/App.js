@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import CreateAccount from "./Pages/CreateAccount/CreateAccount";
 import LoginPages from "./Pages/Login/LoginPages";
 import WishlistPage from "./Pages/Wishlist/WishlistPage";
+import AboutPage from "./Pages/About/AboutPage";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <HomePage /> */}
       {/* <CreateAccount /> */}
       {/* <LoginPages /> */}
-      <WishlistPage/>
+      <AboutPage />
+      {/* <WishlistPage /> */}
       <Footer />
     </>
   );
